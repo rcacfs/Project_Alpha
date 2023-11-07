@@ -10,6 +10,7 @@ CI/CD falls under DevOps (the joining of development and operations teams) and c
 ## References
 
 [Redhat: What is CI/CD ](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
+
 [Gitlab: CI/CD Explained ](https://about.gitlab.com/topics/ci-cd/)
 
 
