@@ -21,7 +21,7 @@ Popular CI/CD tools that can help you achieve your objectives
 
 The tool that will be used for the deployment is AWS Codepipeline
 
-[AWS CodePipeline](https://github.com/rcacfs/Project_Alpha/assets/24573829/8ed2e5d2-aa22-4a54-a542-142493cf0e87)
+![AWS CodePipeline](https://github.com/rcacfs/Project_Alpha/assets/24573829/8ed2e5d2-aa22-4a54-a542-142493cf0e87)
 
 #### Tasks
 
