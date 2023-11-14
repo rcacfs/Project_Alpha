@@ -1,18 +1,16 @@
 # Project_Alpha
 This is a project for cloud engineers in DevOps, SAA, Dev, and Security
-## Week 8
-### Backup
 
-#### Task 1: IAM Role & Policy
-- Create an IAM role and policy that allows the AWS Backup service to access the resources to be backed up.
-- Assign the IAM role to the AWS Backup service.
+## Week 6 - CI/CD (frontend and backend)
 
-#### Task 1: Backup Plan
-- Create a backup plan that defines the backup frequency, retention period, lifecycle rules, and backup vault for the backups.
-- Add the AWS instances's EBS volumes and RDS Postgresql as backup selections to the backup plan.
-- Monitor the backup jobs and restore jobs using the AWS Backup console or API.
+### What is CI/CD
+CI/CD falls under DevOps (the joining of development and operations teams) and combines the practices of continuous integration and continuous delivery. CI/CD automates much or all of the manual human intervention traditionally needed to get new code from a commit into production, encompassing the build, test (including integration tests, unit tests, and regression tests), and deploy phases, as well as infrastructure provisioning. With a CI/CD pipeline, development teams can make changes to code that are then automatically tested and pushed out for delivery and deployment. Get CI/CD right and downtime is minimized and code releases happen faster.
 
 
 ## References
+
+[Redhat: What is CI/CD ](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
+
+[Gitlab: CI/CD Explained ](https://about.gitlab.com/topics/ci-cd/)
 
 
