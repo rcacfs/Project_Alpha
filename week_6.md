@@ -49,6 +49,7 @@ The tool that will be used for the deployment is AWS Codepipeline
 
 - [Youtube Building an AWS Cloudpipeline](https://www.youtube.com/watch?v=8jml8Ni5cIE)
 
+- [K12 Academy Deploy a web application using AWS Codepipeline](https://k21academy.com/amazon-web-services/aws-devops/deploy-web-application-on-aws-using-codepipeline/)
 
 
 
