@@ -35,14 +35,45 @@ AWS CodePipeline is a continuous integration and continuous delivery service for
 
 #### Tasks
 
+##### Presequisite steps
+- Have an already runnning EC2 instance with your EC2
+- Create an S3 bucket for your application
+- A code Reposiroty (github where your Source code is stores)
+
+#### Steps
+
 - Source Stage. This is where your source code resides either from - Github, gitlab, bitbucket and Codecommit
+  - Create a version-controlled repository 
+  - Developers clone the repository to their local machines for code contribution.
+  - Developers write and modify the source code within their local copies of the repository.
+  - Changes are committed to the version control system, ensuring a history of modifications.
+  - Developers collaborate by pulling and pushing changes to and from the central repository.
+  - Code reviews may be conducted to maintain code quality and catch potential issues early.
   
 - Build Stage: In this stage, your source code is compiled, and any necessary dependencies are resolved. The result is a deployable artifact, such as an executable file or a package.
+  - Set up a build configuration file that defines how the code should be compiled.
+  - Specify dependencies and build instructions.
+  - Whenever changes are pushed to the repository, trigger the automated build process.
+  - The build server fetches the latest code, compiles it, and generates a deployable artifact.
+  - The build process results in an artifact, such as an executable file, a library, or a packaged set of files.
   
 - Test Stage: The deployable artifact goes through various tests to ensure that it meets the required quality standards. This can include unit tests, integration tests, or any other testing procedures you define.
+  - Define a testing strategy, including unit tests, integration tests, and any other relevant test types.
+  - Set up testing frameworks and environments.
+  - Execute automated tests on the generated artifact to ensure it meets quality standards.
+  - Tests may include checking functionality, performance, security, and other criteria.
+  - Developers receive feedback on test results.
+  - If issues are identified, developers iterate on the code, addressing and fixing problems.
 
 - Deploy Stage: Once the code has passed all the tests, it is deployed to your target environment, whether it's a development, testing, or production environment.
-
+  - Set up target environments for deployment, such as development, testing, and production environments.
+  - Configure environment-specific variables.
+  - Use deployment tools to automate the deployment process.
+  - Deploy the artifact to the target environment.
+  - Monitor the deployment for any issues or anomalies.
+  - Validate that the deployed application functions correctly in the target environment.
+  - Document the changes introduced in the deployment.
+  - Communicate release notes to stakeholders.
 
 
 ### References
