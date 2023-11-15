@@ -1,5 +1,4 @@
 # Week 7 - Route53, cloudfront, WAF
-
 ## Overview
 
 This project involves setting up a scalable and secure infrastructure on AWS. The tasks are divided into building blocks, each dependent on the previous one:
