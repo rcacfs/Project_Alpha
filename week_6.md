@@ -17,9 +17,19 @@ Popular CI/CD tools that can help you achieve your objectives
   
 - [Gitlab](https://about.gitlab.com/) GitLab is a suite of tools for managing different aspects of the software development lifecycle.
 
-### Tasks
+### AWS CodePipeline
 
-The tool that will be used for the deployment is AWS Codepipeline
+AWS CodePipeline is a continuous integration and continuous delivery service for fast and reliable application and infrastructure updates. CodePipeline builds, tests, and deploys your code every time there is a code change, based on the release process models you define..
+
+
+- [AWS Codecommit](https://docs.aws.amazon.com/codecommit/latest/userguide/getting-started-topnode.html) AWS CodeCommit is a fully-managed source control service that makes it easy for companies to host secure and highly scalable private Git repositories. CodeCommit eliminates the need to operate your own source control system or worry about scaling its infrastructure
+  
+- [AWS Artificats](https://docs.aws.amazon.com/codeartifact/latest/ug/getting-started.html) AWS CodeArtifact is a fully managed artifact repository service that makes it easy for organizations of any size to securely store, publish, and share software packages used in their software development process.
+  
+- [AWS CodeBuild](https://docs.aws.amazon.com/codebuild/latest/userguide/getting-started.html) AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy. With CodeBuild, you don’t need to provision, manage, and scale your own build servers. CodeBuild scales continuously and processes multiple builds concurrently, so your builds are not left waiting in a queue.
+  
+- [AWS CodeDeploy](https://docs.aws.amazon.com/codedeploy/latest/userguide/getting-started-codedeploy.html) AWS CodeDeploy is a fully managed deployment service that automates software deployments to compute services such as Amazon EC2, AWS Lambda, and your on-premises servers. AWS CodeDeploy makes it easier for you to rapidly release new features, helps you avoid downtime during application deployment, and handles the complexity of updating your applications.
+
 
 ![AWS CodePipeline](https://github.com/rcacfs/Project_Alpha/assets/24573829/8ed2e5d2-aa22-4a54-a542-142493cf0e87)
 
