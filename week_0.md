@@ -1,4 +1,4 @@
-# Project_Alpha
+
 ## Week 0
 ### Introduction and Environment Setup
 #### Introduction to the Project and Objectives

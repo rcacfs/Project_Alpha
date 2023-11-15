@@ -1,4 +1,4 @@
-# Project_Alpha
+
 ## Week 1
 ### Creation of a GitHub Repository for Project Collaboration
 #### GitHub Account Setup:

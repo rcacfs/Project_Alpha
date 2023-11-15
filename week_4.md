@@ -1,4 +1,4 @@
-# Project_Alpha
+
 ## Week 4
 ### CloudFormation
 

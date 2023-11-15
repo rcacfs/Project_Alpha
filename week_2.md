@@ -1,4 +1,4 @@
-# Project_Alpha
+
 ## Week 2
 ### Detailed Architectural Diagram Design for the 3-Tier Application
 #### Understanding 3-Tier Architecture:
