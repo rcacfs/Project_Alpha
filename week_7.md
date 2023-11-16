@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project_Alpha
 
 ## Week 7
