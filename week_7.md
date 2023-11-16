@@ -1,7 +1,7 @@
+<<<<<<< HEAD
 # Project_Alpha
 
 ## Week 7
-
 ### Route 53
 
 #### Task 1: Register a Domain (if not done already):
