@@ -44,6 +44,7 @@ Set the TTL for your DNS records. TTL determines how long DNS resolvers should c
   [Route 53 Documentation](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html)
 
 ### CloudFront
+
 #### Task 1: Create a Distribution:
 - Access the CloudFront console in the AWS Management Console.
 - Click on "Create Distribution" to initiate the distribution creation process.
@@ -65,16 +66,17 @@ Set the TTL for your DNS records. TTL determines how long DNS resolvers should c
 - Optionally, configure response headers policy.
 
 #### Task 5: Function Associations (Optional):
-Associate edge functions with specific CloudFront events (Viewer request, Viewer response, Origin request, Origin response).
+- Associate edge functions with specific CloudFront events (Viewer request, Viewer response, Origin request, Origin response).
 
 #### Task 6: Web Application Firewall (WAF):
 - Enable or disable security protections using AWS WAF.
 - Select included security protections based on your application's needs.
+
 **Price Estimate:**
 Review the estimated cost for the AWS WAF configuration.
 
 - <!-- To be covered in the next subtopic below -->
-- *Wwill delve into detailed WAF configuration in the upcoming subtopic.*
+- *Will delve into detailed WAF configuration in the upcoming subtopic.*
 
 #### Task 7: Settings:
 - Choose the price class based on desired edge location coverage.
@@ -95,3 +97,40 @@ Review the estimated cost for the AWS WAF configuration.
 
 [AWS CloudFront documentation](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 
+### Web Application Firewall
+
+#### Task 1: Explore the New AWS WAF Dashboards:
+- Log in to the AWS Management Console and navigate to the AWS WAF console.
+- Explore the updated AWS WAF dashboards by choosing one of your web ACLs.
+- These enhanced dashboards offer a more user-friendly interface for effective management and monitoring of your WAF configurations.
+
+#### Task 2: Create a Web ACL:
+- If no existing Web ACL is present, initiate the creation of a Web Access Control List (Web ACL) by selecting "Create web ACL."
+- Proceed to provide a name and description for the new Web ACL during the configuration process.
+
+#### Task 3: Configure Web ACL Settings:
+- Follow the prompts to configure settings for the Web ACL.
+- Explore options such as IP sets, Regex pattern sets, and Rule groups to define conditions and actions.
+
+#### Task 4: Explore Application Integration:
+- Check out the new Application Integration section for additional features and integrations to enhance your WAF setup.
+
+#### Task 5: Manage Web ACLs:
+- Use the Web ACLs tab to view and manage your existing Web ACLs.
+- Copy the ARN (Amazon Resource Name) for reference or delete any obsolete Web ACLs.
+
+#### Task 6: Switching to AWS WAF Classic:
+- If you have web ACLs created in the AWS WAF Classic console, you can access them by clicking the provided link.
+- Note that resources created under AWS WAF Classic aren't compatible with the new AWS WAF.
+
+#### Task 7: AWS Shield Integration:
+- Explore AWS Shield features by navigating to the AWS Shield section.
+- Understand the overview, protected resources, events, and the global threat dashboard.
+
+#### Task 8: AWS Firewall Manager:
+- Check out AWS Firewall Manager features, including security policies, application lists, and protocol lists.
+
+#### Task 9: Documentation and Support:
+- Access CloudShell and provide feedback on the AWS WAF interface.
+- Refer to AWS documentation for detailed guides and support.
+[AWS WAF Documentation] (https://docs.aws.amazon.com/waf/)
