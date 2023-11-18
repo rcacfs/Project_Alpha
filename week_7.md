@@ -2,7 +2,7 @@
 
 ## Week 7
 
-### Route 53
+### A. Route 53
 
 #### Task 1: Register a Domain (if not done already):
 - If you haven't registered a domain yet, you can do so through Route 53 or another domain registrar.
@@ -43,7 +43,9 @@ Set the TTL for your DNS records. TTL determines how long DNS resolvers should c
 
   [Route 53 Documentation](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html)
 
-### CloudFront
+
+
+### B. CloudFront
 
 #### Task 1: Create a Distribution:
 - Access the CloudFront console in the AWS Management Console.
@@ -97,7 +99,9 @@ Review the estimated cost for the AWS WAF configuration.
 
 [AWS CloudFront documentation](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 
-### Web Application Firewall
+
+
+### C. Web Application Firewall
 
 #### Task 1: Explore the New AWS WAF Dashboards:
 - Log in to the AWS Management Console and navigate to the AWS WAF console.
@@ -133,4 +137,5 @@ Review the estimated cost for the AWS WAF configuration.
 #### Task 9: Documentation and Support:
 - Access CloudShell and provide feedback on the AWS WAF interface.
 - Refer to AWS documentation for detailed guides and support.
-[AWS WAF Documentation] (https://docs.aws.amazon.com/waf/)
+
+[AWS WAF Documentation](https://docs.aws.amazon.com/waf/)
